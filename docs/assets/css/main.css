@@ -3088,7 +3088,7 @@ img {
 }
 
 .card {
-  border: 0;
+  border: 1;
   border-radius: 0.1875rem;
   display: inline-block;
   position: relative;
