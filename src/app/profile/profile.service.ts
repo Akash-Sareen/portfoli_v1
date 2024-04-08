@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -91,7 +90,7 @@ export class ProfileService {
   Have good understanding of Java, AJAX, Jquery, Bootstrap, MQTT, Git, and MYSQL`
 
   about = "Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do."
-  resumeurl = "https://drive.google.com/file/d/17x5wbJpJB7ma-QajF4n4cTdUV1264OyU/view?usp=share_link"
+  resumeurl = "https://drive.google.com/file/d/1Il2pEgerGn1PG1A9cllLcnUlZqr4Fnnj/view?usp=sharing"
 
   skillsData: any = [
     {
@@ -169,6 +168,19 @@ Organised multiple Inter College Events Successfully.`,
 //     }
   ];
   exprienceData: any = [
+    {
+      id: 3,
+      company: 'Barclays',
+      location: 'Northampton',
+      timeline: 'August 2023 to Present',
+      role: 'Graduate Developer Analyst',
+      work: `Technologies : SpringBoot, Git, Jenkins, Openshift, ESaaS, AWS, RAML. .
+      Enhanced fraud detection gateway, boosting code readability and efficiency, elevating overall performance. .
+      Facilitated end-to-end flow testing, ensuring seamless integration and functionality across teams, streamlining processes. .
+      Developed OPENAPI spec document, fortifying project modules, enhancing request validation, and bolstering system resilience. .
+      Amplified test coverage to over 85%, guaranteeing robustness; authored and executed comprehensive test cases across various environments.
+      `
+    },
     {
       id: 2,
       company: 'Kloudspot Inc.',
