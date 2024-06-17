@@ -8,7 +8,9 @@ import { ProfileService } from '../profile.service';
 })
 export class ProjectsComponent implements OnInit {
   config: any;
-  projects: any =[];
+  projects: any = [];
+  wordLimit = 100;
+  expanded: boolean[] = [];
 
   constructor(private profileService:ProfileService) { }
 
@@ -20,9 +22,18 @@ export class ProjectsComponent implements OnInit {
       currentPage: 1,
       totalItems: this.projects.length
     };
+    this.expanded = new Array(this.projects.length).fill(false);
   }
 
   pageChanged(event: any){
     this.config.currentPage = event;
+  }
+
+  toggleExpand(index: number) {
+    this.expanded[index] = !this.expanded[index];
+  }
+
+  getTruncatedText(text: string, limit: number): string {
+    return text.split(' ').slice(0, limit).join(' ') + (text.split(' ').length > limit ? '...' : '');
   }
 }

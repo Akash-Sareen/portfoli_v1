@@ -15,6 +15,16 @@ export class ProfileService {
   projects: any = [
     {
       id: 1,
+      title: 'Starter Project',
+      desc: 'Developed Spring Boot, Angular, and MongoDB base project with comprehensive features: logging, authentication, granular role-based access control, GitHub Actions integration, SonarQube code quality checks, multi-tenant support, and UI-backend proxy.',
+      livedemo: '',
+      githurl: 'https://github.com/Akash-Sareen/monster',
+      mediumlink: '',
+      imgUrl: 'assets/images/starterProject.jpg',
+      tech: 'Spring Boot, Angular MongoDB, GitHub Action.'
+    },
+    {
+      id: 2,
       title: 'Notes',
       desc: 'Notes application, used for sharing notes between unix users.  Making sure that the application is in compliance with security and permisions.',
       livedemo: '',
@@ -24,7 +34,7 @@ export class ProfileService {
       tech: 'Go.'
     },
     {
-      id: 2,
+      id: 3,
       title: 'Game Review',
       desc: 'Angular website made to get the video game review. The webapp pulls data from the public-api server for the data. It has search and sorting feature implemented.',
       livedemo: '',
@@ -34,17 +44,17 @@ export class ProfileService {
       tech: 'HTML, CSS, Angular_14.'
     },
     {
-      id: 3,
+      id: 4,
       title: 'FOSSology',
       desc: 'Open source license compliance software and toolkit. Fixed a couple of bugs in the project. Improving the efficiency of the application.',
       livedemo: '',
       githurl: 'https://github.com/fossology/fossology',
       mediumlink: '',
       imgUrl: 'assets/images/fossology-hero.png',
-      tech: 'HTML, Twig, Regular Expression, CSS.'
+      tech: 'Twig, Regular Expression.'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Snake Game',
       desc: 'The mini snake game was made in python. The logic for snake body and food was the one which was a bit challenging in the project.',
       livedemo: '',
@@ -54,7 +64,7 @@ export class ProfileService {
       tech: 'Python'
     },
     {
-      id: 5,
+      id: 6,
       title: 'Hand Sign Recognition',
       desc: 'This module was designed for the physically mute people to be used in daily life. It is wearable device which gives an audio output for the hand signs made by the user.',
       livedemo: '',
@@ -64,7 +74,7 @@ export class ProfileService {
       tech: 'Arduino, Flex Sensor, EPROM, Speaker.'
     },
     {
-      id: 6,
+      id: 7,
       title: 'S.A.M (Surprise Attendance Marker)',
       desc: 'Designed the connection and programmed Arduino to connect the components with the database. S.A.M was a lightweight, portable device with an embedded biometric scanner for attendance.',
       livedemo: '',
@@ -74,7 +84,7 @@ export class ProfileService {
       tech: 'Arduino Uno, Fingerprint Sensor, LCD display, keypad, EPROM, LED lights.'
     },
     {
-      id: 7,
+      id: 8,
       title: 'Bus Route Display Board',
       desc: 'The display board shows the college bus numbers, destinations, and itineraries. Led the team and overall development of the project using agile methodology. During the project development, the biggest challenge was synchronizing two Arduino boards.',
       livedemo: '',
@@ -84,12 +94,12 @@ export class ProfileService {
       tech: 'Arduino, Dot Matrix Display Board, raspberry pi, BLE Sensor.'
     }
   ]
-  about2 = `Software Developer with 2+ years of experience .
+  about2 = `Software Developer with 3+ years of experience .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
   Expertise in Spring-Boot, Elasticsearch, Spring Security, AngularJs,.
   Have good understanding of Java, AJAX, Jquery, Bootstrap, MQTT, Git, and MYSQL`
 
-  about = "Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do."
+  about = "Lover of innovation and everything related to generate new knowledge. Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do."
   resumeurl = "https://drive.google.com/file/d/1Il2pEgerGn1PG1A9cllLcnUlZqr4Fnnj/view?usp=sharing"
 
   skillsData: any = [
@@ -173,7 +183,7 @@ Organised multiple Inter College Events Successfully.`,
       company: 'Barclays',
       location: 'Northampton',
       timeline: 'August 2023 to Present',
-      role: 'Graduate Developer Analyst',
+      role: 'Graduate Developer',
       work: `Technologies : SpringBoot, Git, Jenkins, Openshift, ESaaS, AWS, RAML. .
       Enhanced fraud detection gateway, boosting code readability and efficiency, elevating overall performance. .
       Facilitated end-to-end flow testing, ensuring seamless integration and functionality across teams, streamlining processes. .
