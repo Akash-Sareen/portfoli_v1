@@ -8,7 +8,8 @@
             <ng-container *ngFor="let project of projects | paginate: config; let i = index">
                 <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
                     <div class="blog-entry">
-                        <div class="card" style="width: 300px;">  <img class="card-img-top" [src]="project.imgUrl" onerror="this.src = 'assets/images/gif.gif'" alt="Card image">
+                        <div class="card" style="width: 300px;">  
+                            <img class="card-img-top" [src]="project.imgUrl" onerror="this.src = 'assets/images/gif.gif'" alt="Card image">
                             <div class="card-body">
                                 <h3 class="card-title">{{project.title}}</h3>
                                 <h5 class="card-text"><b>Technology :</b> {{project.tech}} </h5>
